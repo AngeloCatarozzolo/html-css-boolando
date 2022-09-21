@@ -34,6 +34,9 @@ header{
     padding: 16px 0;
     background-color: #FF6900;
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 .header-top{
     display: flex;
@@ -73,9 +76,56 @@ i{
 .box{
     width: calc(33.33%);
 }
-
 img{
-    width: calc(95%)
+    width: calc(95%);
+}
+#sale{
+    background-color: red;
+    color: white;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 700px;
+    z-index: 1;
+}
+#sostenibile{
+    background-color: green;
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    top: 700px;
+    left: 70px;
+    z-index: 100;
+}
+#sale1{
+    background-color: red;
+    color: white;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 1700px;
+    z-index: 100;
+}
+#sostenibile1{
+    background-color: green;
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    top: 1700px;
+    left: 70px;
+    z-index: 100;
+}
+#sostenibile2{
+    background-color: green;
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    top: 1700px;
+    left: 1270px;
+    z-index: 100;
 }
 p{
     padding-bottom: 50px;
