@@ -15,11 +15,17 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+main{
+    display: inline-block;
+}
 a{
     color: white;
 }
 li{ 
     display: inline-block;
+}
+#red{
+    color: red;
 }
 /*----------
     HEADER
@@ -40,4 +46,38 @@ header{
     display: inline;
     height: 40px;
     padding-right: 200px;
+}
+i{
+    padding-left: 10px;
+}
+/*----------
+    BODY    
+----------*/
+.col {
+    margin: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hover{
+    display: none;
+ 
+}
+.box:hover .hover{
+    display: block;
+}
+.box:hover .default{
+    display: none;
+}
+.box{
+    width: calc(33.33%);
+}
+
+img{
+    width: calc(95%)
+}
+p{
+    padding-bottom: 50px;
+    display: inline-block;
 }
