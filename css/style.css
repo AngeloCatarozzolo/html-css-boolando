@@ -197,3 +197,14 @@ p{
     padding-bottom: 50px;
     display: inline-block;
 }
+/*----------
+    FOOTER
+----------*/
+footer{
+    padding: 50px 50px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
